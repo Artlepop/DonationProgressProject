@@ -1,0 +1,10 @@
+#pBar{
+  width: 1552px;
+  height: 811px;
+  background-image: url('images/RhinoProgressBar.png');
+  background-repeat: no-repeat;
+}
+
+.progressBox{
+  border: 2px solid black;
+}

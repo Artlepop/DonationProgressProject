@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="pBar"></div>
+    <button onclick="resetProgress()">Reset Percentage</button>
+    <button onclick="SetDonationGoal()">Set Donation Goal</button>
+    <input type="number" id="inputField" name="donationInput"><br><br>
+    <button onclick="addPercentage()">Add Percentage</button>
+    <button onclick="Donate()">Donate</button>
+    <div class="progressBox">
+      <h1 id="progressText">100%</h1>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
